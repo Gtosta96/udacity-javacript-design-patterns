@@ -1,0 +1,30 @@
+.cat-clicker-wrapper {
+  width: 500px;
+}
+
+.cat-clicker {
+  position: relative;
+}
+
+.cat-name {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 20px;
+  pointer-events: none;
+  text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+}
+
+.cat-img {
+  width: 100%;
+}
+
+.counter {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 50px;
+  pointer-events: none;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
